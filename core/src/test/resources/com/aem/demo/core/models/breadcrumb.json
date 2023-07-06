@@ -1,0 +1,12 @@
+{
+    "jcr:primaryType": "nt:unstructured",
+    "jcr:createdBy": "admin",
+    "startLevel": "2",
+    "jcr:lastModifiedBy": "admin",
+    "jcr:created": "Thu May 11 2023 07:29:44 GMT+0000",
+    "disableShadowing": "false",
+    "showHidden": "false",
+    "jcr:lastModified": "Thu May 11 2023 07:32:29 GMT+0000",
+    "hideCurrent": "false",
+    "sling:resourceType": "aem-demo/components/breadcrumb"
+}

@@ -38,9 +38,9 @@ class SimpleResourceListenerTest {
 
     @Test
     void handleEvent() {
-        
+
         ResourceChange change = new ResourceChange(ChangeType.ADDED,"/content/test", false);
-        
+
         fixture.onChange(Arrays.asList(change));
 
         List<LoggingEvent> events = logger.getLoggingEvents();
