@@ -173,6 +173,10 @@ Import-Package: javax.annotation;version=0.0.0,*
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.google.cloud</groupId>
+            <artifactId>google-cloud-recaptchaenterprise</artifactId>
+        </dependency>
 
 
         <!-- Testing -->

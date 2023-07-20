@@ -67,6 +67,11 @@
                         </embedded>
                         <embedded>
                             <groupId>com.aem.demo</groupId>
+                            <artifactId>aem-demo.commons.core</artifactId>
+                            <target>/apps/aem-project-demo-packages/application/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.aem.demo</groupId>
                             <artifactId>aem-demo.ui.content</artifactId>
                             <type>zip</type>
                             <target>/apps/aem-project-demo-packages/content/install</target>

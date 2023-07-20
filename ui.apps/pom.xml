@@ -119,6 +119,11 @@
             <artifactId>aem-demo.core</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.aem.demo</groupId>
+            <artifactId>aem-demo.commons.core</artifactId>
+            <version>${project.version}</version>
+        </dependency>
 
         <dependency>
             <groupId>com.aem.demo</groupId>
