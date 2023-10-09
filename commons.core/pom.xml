@@ -34,7 +34,8 @@
                     <instructions>
                         <Import-Package>*;resolution:=optional</Import-Package>
                         <Export-Package>
-                            com.google.*
+                            com.google.*,
+                            org.aspectj.*
                         </Export-Package>
                         <Embed-Dependency>*</Embed-Dependency>
                         <Embed-Transitive>true</Embed-Transitive>
@@ -59,6 +60,10 @@
         <dependency>
             <groupId>com.google.cloud</groupId>
             <artifactId>google-cloud-recaptchaenterprise</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjrt</artifactId>
         </dependency>
     </dependencies>
 </project>

@@ -709,6 +709,17 @@ Bundle-DocURL:
                 <artifactId>google-cloud-recaptchaenterprise</artifactId>
                 <version>3.18.0</version>
             </dependency>
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjrt</artifactId>
+                <version>1.8.14</version>
+            </dependency>
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjweaver</artifactId>
+                <version>1.8.14</version>
+            </dependency>
+
 
             <!-- Testing -->
             <dependency>
