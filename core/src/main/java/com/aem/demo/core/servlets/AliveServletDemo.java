@@ -1,5 +1,7 @@
 package com.aem.demo.core.servlets;
 
+import com.aem.demo.core.annotation.FaultTolerant;
+import com.aem.demo.core.exception.DemoException;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.SlingHttpServletResponse;
@@ -12,6 +14,7 @@ import org.osgi.service.component.annotations.Component;
 import javax.servlet.Servlet;
 
 @Slf4j
+@FaultTolerant(exceptions = {RuntimeException.class})
 @Component(service = Servlet.class,
         property = {
                 Constants.SERVICE_DESCRIPTION + "=Alive txt",
@@ -22,6 +25,6 @@ import javax.servlet.Servlet;
 public class AliveServletDemo extends SlingAllMethodsServlet {
     @Override
     protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response) {
-        throw new RuntimeException("Hello Runtime");
+        throw new RuntimeException("Servlet Exception");
     }
 }
